@@ -7,14 +7,9 @@ export default {
 
 <!-- Quando si importa questo componente verrà visualizzato questo HTML al suo posto -->
 <template>
-  <h1 class="green">La mia prima app con <span class="red">Vite!</span></h1>
+  <h1 class="green">La mia prima app con <span class="text-danger text-decoration-underline">Vite!</span></h1>
 </template>
 
 <!-- Lo stile da applicare in QUESTO componente è il seguente -->
 <!-- In style.css abbiamo invece lo stile generico -->
-<style scoped>
-h1>span.red {
-  color: red;
-  text-decoration: underline;
-}
-</style>
+<style scoped></style>
