@@ -7,14 +7,21 @@ export default {
 
 <!-- Quando si importa questo componente verrà visualizzato questo HTML al suo posto -->
 <template>
-    <div class="container">
-        <div class="jumbotron">
-            <h1 class="bg-primary">This is Jumbotron inside container!</h1>
-            <p>Jumbotron specifies a big box for getting extra attention to some special content or information.</p>
-        </div>
-        <p>This is some text.</p>
-        <p>This is another text.</p>
+    <div class="jumbotron text-white jumbotron-image shadow" style="
+            background-image: url('https://media.geeksforgeeks.org/wp-content/uploads/20200914000601/gfg-300x200.jpg');">
+
+        <h2 class=" mb-4 text-secondary">
+            Jumbotron with background image
+        </h2>
+
+        <p class="mb-4 text-secondary">
+            Hey, check this out.
+        </p>
+
+        <a class="btn btn-primary">
+            Click!
+        </a>
     </div>
 </template>
 
-<style ></style>
+<style scoped ></style>
